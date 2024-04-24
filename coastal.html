@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3-Day Coastal Adventure Retreat</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+            background-image: url('./pexels-cottonbro-4911061.jpg'); /* Update with coastal background image */
+            background-size: cover;
+            background-position: center;
+        }
+        header {
+            color: black;
+            padding: 40px 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 224, 0.607);
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        h2 {
+            font-size: 28px;
+            margin-bottom: 15px;
+            position: relative;
+            padding-bottom: 10px;
+        }
+        h2::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 50px;
+            height: 3px;
+            background-color: #4CAF50;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .photo {
+            position: relative;
+            overflow: hidden;
+            margin-bottom: 40px;
+        }
+        .photo img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s ease;
+        }
+        .photo:hover img {
+            transform: scale(1.1);
+        }
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 30px;
+            }
+            h2 {
+                font-size: 24px;
+            }
+        }
+        span {
+            color: 	#888888;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>3-Day <span>Coastal</span> Adventure Retreat</h1>
+        <p>Embark on an exciting coastal adventure!</p>
+    </header>
+
+    <div class="container">
+        <h2>Day 1: Coastal Exploration</h2>
+        <div class="photo">
+            <img src="./pexels-mermoz-lionel-622163994-19261740.jpg" alt="Coastal Adventure Day 1">
+        </div>
+        <p>Begin your coastal adventure exploring sandy beaches and coastal trails. Discover hidden coves and enjoy the sound of crashing waves.</p>
+
+        <h2>Day 2: Water Activities</h2>
+        <div class="photo">
+            <img src="./pexels-elletakesphotos-1549196.jpg" alt="Coastal Water Activities">
+        </div>
+        <p>Engage in thrilling water activities like snorkeling, kayaking, or surfing. Enjoy the vibrant marine life and clear blue waters.</p>
+
+        <h2>Day 3: Sunset Farewell</h2>
+        <div class="photo">
+            <img src="./pexels-romanp-16704.jpg" alt="Coastal Sunset">
+        </div>
+        <p>Witness a breathtaking sunset over the horizon. Reflect on your coastal adventure before departing with unforgettable memories.</p>
+    </div>
+</body>
+</html>

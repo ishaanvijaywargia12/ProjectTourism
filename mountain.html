@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3-Day Mountain Trekking Expedition</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+            background-image: url('./pexels-eberhardgross-1303431.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        header {
+            color: antiquewhite;
+            padding: 40px 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: lightyellow;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        h2 {
+            font-size: 28px;
+            margin-bottom: 15px;
+            position: relative;
+            padding-bottom: 10px;
+        }
+        h2::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 50px;
+            height: 3px;
+            background-color: #4CAF50;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .photo {
+            position: relative;
+            overflow: hidden;
+            margin-bottom: 40px;
+        }
+        .photo img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s ease;
+        }
+        .photo:hover img {
+            transform: scale(1.1);
+        }
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 30px;
+            }
+            h2 {
+                font-size: 24px;
+            }
+        }
+        span{
+            color: 	#888888;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>3-Day <span>Mountain</span> Trekking Expedition</h1>
+        <p>Embark on an adventure through majestic mountain trails!</p>
+    </header>
+
+    <div class="container">
+        <h2>Day 1: Begin the Trek</h2>
+        <div class="photo">
+            <img src="./pexels-yaroslav-shuraev-4763005.jpg" alt="Mountain Trekking Day 1">
+        </div>
+        <p>Start your trekking expedition into the mountains. Explore scenic trails and set up camp amidst breathtaking views.</p>
+
+        <h2>Day 2: Summit Day</h2>
+        <div class="photo">
+            <img src="pexels-roman-odintsov-4552990.jpg" alt="Mountain Summit">
+        </div>
+        <p>Today is the summit push! Rise early to reach the peak. Enjoy panoramic vistas from the summit and celebrate your achievement.</p>
+
+        <h2>Day 3: Descent and Departure</h2>
+        <div class="photo">
+            <img src="path/to/photo3.jpg" alt="Descending from Mountain">
+        </div>
+        <p>Descend from the mountain, reflecting on your adventure. Head back to base camp and bid farewell to the mountains.</p>
+    </div>
+</body>
+</html>

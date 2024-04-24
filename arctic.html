@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4-Day Arctic Wilderness Expedition</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+            background-image: url('./pexels-therato-3610763.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        header {
+            color: black;
+            padding: 40px 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px;
+            background-color: #d3d3d38f;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 42px;
+            margin-bottom: 20px;
+        }
+        h2 {
+            font-size: 28px;
+            margin-bottom: 15px;
+            position: relative;
+            padding-bottom: 10px;
+        }
+        h2::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 50px;
+            height: 3px;
+            background-color: #007bff;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .photo {
+            position: relative;
+            overflow: hidden;
+            margin-bottom: 40px;
+        }
+        .photo img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s ease;
+        }
+        .photo:hover img {
+            transform: scale(1.1);
+        }
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 36px;
+            }
+            h2 {
+                font-size: 24px;
+            }
+        }
+        header > p {
+            color: whitesmoke;
+        }
+        p {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>4-Day Arctic Wilderness Expedition</h1>
+        <p>Embark on an unforgettable journey through the Arctic wilderness!</p>
+    </header>
+
+    <div class="container">
+        <h2>Day 1: Arrival and Northern Lights Tour</h2>
+        <div class="photo">
+            <img src="./arctic1.jpeg" alt="Arctic Wilderness">
+        </div>
+        <p>Upon arrival, settle into your cozy Arctic lodge. In the evening, embark on a guided tour to witness the mesmerizing Northern Lights dancing across the Arctic sky.</p>
+
+        <h2>Day 2: Dog Sledding Adventure</h2>
+        <div class="photo">
+            <img src="./arctic2.jpeg" alt="Dog Sledding">
+        </div>
+        <p>Experience the thrill of dog sledding through the snow-covered wilderness. Learn about the fascinating history of dog sledding and interact with the friendly huskies.</p>
+
+        <h2>Day 3: Ice Fishing and Snowshoeing</h2>
+        <div class="photo">
+            <img src="./arctic3.jpeg" alt="Ice Fishing">
+        </div>
+        <p>Join a local guide for an ice fishing excursion on a frozen lake. Afterwards, strap on snowshoes and explore the serene Arctic landscape, taking in breathtaking views of snow-capped mountains.</p>
+
+        <h2>Day 4: Wildlife Safari and Departure</h2>
+        <div class="photo">
+            <img src="./arctic4.jpeg" alt="Wildlife Safari">
+        </div>
+        <p>Embark on a wildlife safari to spot Arctic wildlife such as reindeer, Arctic foxes, and maybe even polar bears! Bid farewell to the Arctic wilderness as you head back home with unforgettable memories.</p>
+    </div>
+</body>
+</html>

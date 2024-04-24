@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="first.css">
+    <title>Go Trip</title>
+</head>
+<body>
+    <!--===========Nav Bar=================-->
+    <section class="nav-bar">
+        <div class="logo">Lesss goo</div>
+        <ul class="menu">
+            <li><a href="./first_copy.html" class="modify">home</a></li>
+            <li><a href="./tours.html" class="modify">tours</a></li>
+            <li><a href="#" class="modify">package</a></li>
+            <li><a href="#" class="modify">blog</a></li>
+            <li><a href="# aboutus" class="modify">about us</a></li>
+            <li><a href="./contact.html" class="modify">contact us</a></li>
+        </ul>
+        <div id="languageSelector">
+            Language: 
+            <select id="languageDropdown">
+                <option value="en">English</option>
+                <option value="te">Telugu</option>
+                <option value="hi">Hindi</option>
+            </select>
+        </div>
+    </section>
+
+    <!--===============Banner================-->
+    <section class="banner">
+        <div class="banner-text-item">
+            <div class="banner-heading">
+                <h1 id="bannerHeading">Find your Next tour!</h1>
+            </div>
+            <form class="form">
+                <input type="text" list="mylist" placeholder="Where would you like to go?">
+                <datalist id="mylist">
+                    <option>Beaches</option>
+                    <option>Mountain</option>
+                    <option>Forest</option>
+                    <option>Caves</option>
+                    <option>Desert</option>
+                    <option>Lakes</option>
+                </datalist>
+                <input type="date" class="date">
+                <a href="#" class="book">book</a>
+            </form>
+        </div>
+    </section>
+
+    <!--=========Services===============-->
+    <section class="services">
+        <div class="service-item">
+            <img src="team.png">
+            <h2 id="localGuides">8000+ Our Local Guides</h2>
+        </div>
+        <div class="service-item">
+            <img src="reliability.png">
+            <h2 id="trustedAgency">100% Trusted Tour Agency</h2>
+        </div>
+        <div class="service-item">
+            <img src="certificate.png">
+            <h2 id="travelExperience">28+ Years of Travel Experience</h2>
+        </div>
+        <div class="service-item">
+            <img src="rate.png">
+            <h2 id="happyTravelers">98% Our Travellers are Happy</h2>
+        </div>
+    </section>
+
+    <!--==============Places===================-->
+    <!-- Places -->
+<!--==============Places===================-->
+<section class="places">
+    <div class="places-text">
+        <small id="featuredDestinations">FEATURED ADVENTURE DESTINATIONS</small>
+        <h2 id="exploreWonders">Explore Nature's Wonders</h2>
+    </div>
+    <div class="cards">
+        <!-- Card 1: Deep Forest Adventure -->
+        <a href="./palm.html">
+            <div class="card">
+                <div class="zoom-img">
+                    <div class="img-card">
+                        <img src="pexels-fabian-wiktor-994605.jpg">
+                    </div>
+                </div>
+                <div class="text">
+                    <span class="rating">⭐⭐⭐⭐⭐</span>
+                    <h2 id="palmBeach">Palm Beach Paradise</h2>
+                    <p class="cost">₹124,300 / Per Person</p>
+                    <div class="card-box">
+                        <p class="time">🕓 3 Days</p>
+                        <p class="location">✈ Alleppey, Kerala, India</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <!-- Card 2: Mountain Trekking Expedition -->
+        <a href="./mountain.html">
+        <div class="card">
+            <div class="zoom-img">
+                <div class="img-card">
+                    <img src="pexels-saikat-ghosh-914128.jpg">
+                </div>
+            </div>
+            <div class="text">
+                <span class="rating">⭐⭐⭐⭐⭐</span>
+                <h2 id="mountainTrek">Mountain Trekking Expedition</h2>
+                <p class="cost">₹136,320 / Per Person</p>
+                <div class="card-box">
+                    <p class="time">🕓 4 Days</p>
+                    <p class="location">✈ Manali, Himachal Pradesh, India</p>
+                </div>
+            </div>
+        </div></a>
+
+        <!-- Card 3: Coastal Adventure Retreat -->
+        <a href="./coastal.html"><div class="card">
+            <div class="zoom-img">
+                <div class="img-card">
+                    <img src="pexels-te-lensfix-1371360.jpg">
+                </div>
+            </div>
+            <div class="text">
+                <span class="rating">⭐⭐⭐⭐⭐</span>
+                <h2 id="coastalAdventure">Coastal Adventure Retreat</h2>
+                <p class="cost">₹148,550 / Per Person</p>
+                <div class="card-box">
+                    <p class="time">🕓 5 Days</p>
+                    <p class="location">✈ Goa, India</p>
+                </div>
+            </div>
+        </div></a>
+
+        <!-- Card 4: Desert Safari Expedition -->
+        <a href="./desert.html"><div class="card">
+            <div class="zoom-img">
+                <div class="img-card">
+                    <img src="steve-long-i6P1H0By5Kk-unsplash.jpg">
+                </div>
+            </div>
+            <div class="text">
+                <span class="rating">⭐⭐⭐⭐⭐</span>
+                <h2 id="desertSafari">Desert Safari Expedition</h2>
+                <p class="cost">₹134,800 / Per Person</p>
+                <div class="card-box">
+                    <p class="time">🕓 3 Days</p>
+                    <p class="location">✈ Jaisalmer, Rajasthan, India</p>
+                </div>
+            </div>
+        </div></a>
+
+        <!-- Card 5: Jungle Adventure Expedition -->
+        <a href="jungle.html"><div class="card">
+            <div class="zoom-img">
+                <div class="img-card">
+                    <img src="pexels-kamaji-ogino-5064653.jpg">
+                </div>
+            </div>
+            <div class="text">
+                <span class="rating">⭐⭐⭐⭐⭐</span>
+                <h2 id="jungleAdventure">Jungle Adventure Expedition</h2>
+                <p class="cost">₹142,600 / Per Person</p>
+                <div class="card-box">
+                    <p class="time">🕓 4 Days</p>
+                    <p class="location">✈ Uttarakhand, India</p>
+                </div>
+            </div>
+        </div></a>
+
+        <!-- Card 6: Arctic Wilderness Expedition -->
+        <a href="./arctic.html"><div class="card">
+            <div class="zoom-img">
+                <div class="img-card">
+                    <img src="pexels-shvetsa-4014847.jpg">
+                </div>
+            </div>
+            <div class="text">
+                <span class="rating">⭐⭐⭐⭐⭐</span>
+                <h2 id="arcticWilderness">Arctic Wilderness Expedition</h2>
+                <p class="cost">₹162,900 / Per Person</p>
+                <div class="card-box">
+                    <p class="time">🕓 7 Days</p>
+                    <p class="location">✈ Ladakh, India</p>
+                </div>
+            </div>
+        </div></a>
+    </div>
+</section>
+
+
+    <!--===========About Us===============-->
+    <section class="about">
+        <div class="about-img"id= "aboutus">
+            <img src="pexels-mohamedelaminemsiouri-2108845.jpg">
+        </div>
+        <div class="about-text">
+            <small>ABOUT OUR COMPANY</small>
+            <h2 id="aboutCompany">We are Go Trip Travels Support Company</h2>
+            <p>At Go Trip, we are passionate about helping travelers like you discover the world's most incredible destinations. Whether you're seeking an adrenaline-pumping adventure or a relaxing beach getaway, we've got you covered.</p>
+            <p>Our team of experienced travel experts is dedicated to providing you with personalized service and creating unforgettable travel experiences tailored to your preferences and interests.</p>
+            <p>With Go Trip, your dream vacation is just a click away. Explore our wide range of tours, packages, and destinations, and let us help you make your travel dreams a reality.</p>
+            <!-- <a href="#">ABOUT US</a> -->
+        </div>
+    </section>
+
+    <!--===========Footer=================-->
+    <div class="footer">
+        <div class="links">
+            <h3>Quick Links</h3>
+            <ul>
+                <li id="offers">Offers & Discounts</li>
+                <li id="coupon">Get Coupon</li>
+                <li id="contact">Contact Us</li>
+                <li id="footerAbout">About</li>
+            </ul>
+        </div>
+        <div class="links">
+            <h3>Explore More</h3>
+            <ul>
+                <li id="adventureTours">Adventure Tours</li>
+                <li id="beachEssentials">Beach Essentials</li>
+                <li id="travelGear">Travel Gear</li>
+                <li id="localExperiences">Local Experiences</li>
+            </ul>
+        </div>            
+        <div class="links">
+            <h3>Support</h3>
+            <ul>
+                <li id="faq">Frequently Asked Questions</li>
+                <li id="reportIssue">Report a Payment Issue</li>
+                <li id="terms">Terms & Conditions</li>
+                <li id="privacy">Privacy Policy</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        // Language translation dictionary
+        const translations = {
+            en: {
+                bannerHeading: "Find your Next tour!",
+                localGuides: "8000+ Our Local Guides",
+                trustedAgency: "100% Trusted Tour Agency",
+                travelExperience: "28+ Years of Travel Experience",
+                happyTravelers: "98% Our Travelers are Happy",
+                featuredDestinations: "FEATURED ADVENTURE DESTINATIONS",
+                exploreWonders: "Explore Nature's Wonders",
+                palmBeach: "Palm Beach Paradise",
+                mountainTrek: "Mountain Trekking Expedition",
+                coastalAdventure: "Coastal Adventure Retreat",
+                aboutCompany: "We are Go Trip Travels Support Company",
+                offers: "Offers & Discounts",
+                coupon: "Get Coupon",
+                contact: "Contact Us",
+                footerAbout: "About",
+                adventureTours: "Adventure Tours",
+                beachEssentials: "Beach Essentials",
+                travelGear: "Travel Gear",
+                localExperiences: "Local Experiences",
+                faq: "Frequently Asked Questions",
+                reportIssue: "Report a Payment Issue",
+                terms: "Terms & Conditions",
+                privacy: "Privacy Policy",        
+                desertSafari: "Desert Safari Expedition",
+                jungleAdventure: "Jungle Adventure Expedition",
+                arcticWilderness: "Arctic Wilderness Expedition",
+                cost: "₹",
+                days: "Days",
+                quickLinks: "Quick Links"
+            },
+            te: {
+                bannerHeading: "మీ తదుపరి టూర్‌ను కనుగొనండి!",
+                localGuides: "8000+ మా లోకల్ గైడ్స్",
+                trustedAgency: "100% నమ్మకం పోలిక యాత్రా యజమాని",
+                travelExperience: "28+ సంవత్సరాల ప్రయాణ అనుభవం",
+                happyTravelers: "98% మా ప్రయాణికులు సంతోషంగా ఉన్నారు",
+                featuredDestinations: "ఫీచర్డ్ అడ్వెంచర్ గోలుకలు",
+                exploreWonders: "ప్రకృతిని ఆహ్లాదకరమైనంగా అన్వేషించండి",
+                palmBeach: "పామ్ బీచ్ పారాడైస్",
+                mountainTrek: "మౌంటెన్ ట్రెక్కింగ్ ఎక్స్‌పెడిషన్",
+                coastalAdventure: "కోస్టల్ అడ్వెంచర్ రిట్రీట్",
+                aboutCompany: "మేము గో ట్రిప్ ట్రావెల్స్ సపోర్ట్ కంపెనీ",
+                offers: "ఆఫర్లు & డిస్కౌంట్లు",
+                coupon: "కూపన్ పొందండి",
+                contact: "మాకు సంప్రదించండి",
+                footerAbout: "గురించి",
+                adventureTours: "అడ్వెంచర్ టూర్లు",
+                beachEssentials: "బీచ్ ఎసెన్షియల్స్",
+                travelGear: "ప్రయాణ గియర్",
+                localExperiences: "స్థానిక అనుభవాలు",
+                faq: "అక్కడ అడిగే ప్రశ్నలు",
+                reportIssue: "ఒక చెల్లింపు సమస్య నివేదించండి",
+                terms: "షరతులు & ప్రమాణాలు",
+                privacy: "గౌప్యతా నీతి",
+                desertSafari: "డెసర్ట్ సఫారీ ఎక్స్‌పెడిషన్",
+                jungleAdventure: "జంగల్ అడ్వెంచర్ ఎక్స్‌పెడిషన్",
+                arcticWilderness: "ఆర్క్టిక్ వైల్డర్నెస్ ఎక్స్‌పెడిషన్",
+                cost: "₹",
+                days: "రోజులు",
+                quickLinks: "త్వరలో లింక్స్"
+            },
+            hi: {
+                bannerHeading: "अपने अगले टूर को खोजें!",
+                localGuides: "8000+ हमारे स्थानीय मार्गदर्शक",
+                trustedAgency: "100% विश्वसनीय टूर एजेंसी",
+                travelExperience: "28+ साल का यात्रा अनुभव",
+                happyTravelers: "98% हमारे यात्री खुश हैं",
+                featuredDestinations: "विशेष एडवेंचर गंतव्य",
+                exploreWonders: "प्रकृति के चमत्कारों का अन्वेषण करें",
+                palmBeach: "पाम बीच पैराडाइस",
+                mountainTrek: "माउंटेन ट्रेकिंग एक्सपेडीशन",
+                coastalAdventure: "कोस्टल एडवेंचर रिट्रीट",
+                aboutCompany: "हम गो ट्रिप ट्रैवल्स सपोर्ट कंपनी हैं",
+                offers: "ऑफ़र और डिस्काउंट",
+                coupon: "कूपन प्राप्त करें",
+                contact: "हमसे संपर्क करें",
+                footerAbout: "के बारे में",
+                adventureTours: "एडवेंचर टूर्स",
+                beachEssentials: "बीच की आवश्यकताएं",
+                travelGear: "यात्रा सामग्री",
+                localExperiences: "स्थानीय अनुभव",
+                faq: "सामान्य प्रश्न",
+                reportIssue: "एक भुगतान समस्या की सूचना दें",
+                terms: "नियम और शर्तें",
+                privacy: "गोपनीयता नीति",
+                desertSafari: "डेज़र्ट सफारी एक्सपेडीशन",
+                jungleAdventure: "जंगल एडवेंचर एक्सपेडिशन",
+                arcticWilderness: "आर्क्टिक वाइल्डर्नेस एक्सपेडिशन",
+                cost: "₹",
+                days: "दिन",
+                location: "✈"
+            }
+        };
+
+        // Function to change language based on dropdown selection
+        function changeLanguage() {
+            const selectedLanguage = document.getElementById("languageDropdown").value;
+
+            // Update text content for each element
+            for (const key in translations.en) {
+                const element = document.getElementById(key);
+                if (element) {
+                    element.textContent = translations[selectedLanguage][key];
+                }
+            }
+        }
+
+        // Add event listener to language dropdown
+        document.getElementById("languageDropdown").addEventListener("change", changeLanguage);
+
+        // Initialize language on page load (default to English)
+        changeLanguage();
+        document.addEventListener("DOMContentLoaded", function() {
+    const searchInput = document.querySelector("input[type='text']");
+    const cards = document.querySelectorAll(".card");
+
+    searchInput.addEventListener("input", function() {
+        const searchText = searchInput.value.trim().toLowerCase();
+
+        cards.forEach(card => {
+            const cardTitle = card.querySelector("h2").textContent.toLowerCase();
+
+            if (cardTitle.includes(searchText)) {
+                card.style.display = "block";
+            } else {
+                card.style.display = "none";
+            }
+        });
+    });
+});
+// Function to open the tour link with animation
+function openTour(url) {
+    // Add animation class to the body
+    document.body.classList.add('fadeOut');
+
+    // Delay opening the link to allow animation to finish
+    setTimeout(() => {
+        window.location.href = url;
+    }, 500); // Adjust the delay time to match your animation duration
+}
+    </script>
+</body>
+</html>

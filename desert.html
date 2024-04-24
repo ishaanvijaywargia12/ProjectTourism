@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3-Day Desert Safari Expedition</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+            background-image: url('./desertBG.avif');
+            background-size: cover;
+            background-position: center;
+        }
+        header {
+            color: black;
+            padding: 40px 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px;
+            background-color: rgba(255, 255, 255, 0);
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(135, 150, 19, 0);
+        }
+        h1 {
+            font-size: 42px;
+            margin-bottom: 20px;
+        }
+        h2 {
+            font-size: 28px;
+            margin-bottom: 15px;
+            position: relative;
+            padding-bottom: 10px;
+        }
+        h2::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 50px;
+            height: 3px;
+            background-color: #007bff;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .photo {
+            position: relative;
+            overflow: hidden;
+            margin-bottom: 40px;
+        }
+        .photo img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s ease;
+        }
+        .photo:hover img {
+            transform: scale(1.1);
+        }
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 36px;
+            }
+            h2 {
+                font-size: 24px;
+            }
+        }
+        header > p {
+            color: whitesmoke;
+        }
+        p {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>3-Day Desert Safari Expedition</h1>
+        <p>Experience the thrill of the desert with our guided safari tour!</p>
+    </header>
+
+    <div class="container">
+        <h2>Day 1: Arrival and Camel Ride</h2>
+        <div class="photo">
+            <img src="./desert1.jpeg" alt="Desert Safari">
+        </div>
+        <p>Arrive at the desert camp and enjoy a traditional welcome. Experience the serene beauty of the desert landscape with a camel ride through the golden sands.</p>
+
+        <h2>Day 2: Dune Bashing and Campfire Dinner</h2>
+        <div class="photo">
+            <img src="./desert2.jpeg" alt="Dune Bashing">
+        </div>
+        <p>Embark on an adrenaline-pumping dune bashing adventure in a 4x4 vehicle, navigating the steep sand dunes with expert drivers. In the evening, gather around the campfire for a delicious desert dinner under the stars.</p>
+
+        <h2>Day 3: Sunrise Safari and Departure</h2>
+        <div class="photo">
+            <img src="./desert3.avif" alt="Sunrise Safari">
+        </div>
+        <p>Wake up early to witness the breathtaking beauty of the desert sunrise. Enjoy a final safari excursion through the desert wilderness before departing with unforgettable memories of your desert adventure.</p>
+    </div>
+</body>
+</html>

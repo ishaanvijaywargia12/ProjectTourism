@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="first.css" />
+    <title>Go Trip - Tours</title>
+    <style>
+        .nav-bar{
+            position: static;
+        }
+    </style>
+</head>
+<body>
+    <!-- Nav Bar -->
+    <section class="nav-bar">
+        <div class="logo">Go Trip</div>
+        <ul class="menu">
+            <li><a href="./first_copy.html" class="modify">home</a></li>
+            <li><a href="./tours.html" class="modify">tours</a></li> <!-- This is the current page -->
+            <li><a href="#" class="modify">package</a></li>
+            <li><a href="#" class="modify">blog</a></li>
+            <li><a href="#" class="modify">about us</a></li>
+            <li><a href="./contact.html" class="modify">contact us</a></li>
+        </ul>
+        <div id="languageSelector">
+            Language: 
+            <select id="languageDropdown">
+                <option value="en">English</option>
+                <option value="te">Telugu</option>
+                <option value="hi">Hindi</option>
+            </select>
+        </div>
+    </section>
+
+    <!-- Cards Section -->
+    <section class="places">
+        <div class="places-text">
+            <small>FEATURED ADVENTURE DESTINATIONS</small>
+            <h2>Explore Nature's Wonders</h2>
+        </div>
+        <div class="cards">
+            <!-- Card 1: Deep Forest Adventure -->
+            <a href="beach.html"><div class="card" onclick="openTour('beach.html')">
+                <div class="zoom-img">
+                    <div class="img-card">
+                        <img src="pexels-fabian-wiktor-994605.jpg">
+                    </div>
+                </div>
+                <div class="text">
+                    <span class="rating">⭐⭐⭐⭐⭐</span>
+                    <h2>Palm Beach Paradise</h2>
+                    <p class="cost">₹124,300 / Per Person</p>
+                    <div class="card-box">
+                        <p class="time">🕓 3 Days</p>
+                        <p class="location">✈ Alleppey, Kerala, India</p>
+                    </div>
+                </div>
+            </div></a>
+    
+            <!-- Card 2: Mountain Trekking Expedition -->
+            <a href="mountain.html"><div class="card">
+                <div class="zoom-img">
+                    <div class="img-card">
+                        <img src="pexels-saikat-ghosh-914128.jpg">
+                    </div>
+                </div>
+                <div class="text">
+                    <span class="rating">⭐⭐⭐⭐⭐</span>
+                    <h2>Mountain Trekking Expedition</h2>
+                    <p class="cost">₹136,320 / Per Person</p>
+                    <div class="card-box">
+                        <p class="time">🕓 4 Days</p>
+                        <p class="location">✈ Manali, Himachal Pradesh, India</p>
+                    </div>
+                </div>
+            </div></a>
+    
+            <!-- Card 3: Coastal Adventure Retreat -->
+            <a href="coastal.html"><div class="card">
+                <div class="zoom-img">
+                    <div class="img-card">
+                        <img src="pexels-te-lensfix-1371360.jpg">
+                    </div>
+                </div>
+                <div class="text">
+                    <span class="rating">⭐⭐⭐⭐⭐</span>
+                    <h2>Coastal Adventure Retreat</h2>
+                    <p class="cost">₹148,550 / Per Person</p>
+                    <div class="card-box">
+                        <p class="time">🕓 5 Days</p>
+                        <p class="location">✈ Goa, India</p>
+                    </div>
+                </div>
+            </div></a>
+    
+            <!-- Card 4: Desert Safari Expedition -->
+            <a href="desert.html"><div class="card">
+                <div class="zoom-img">
+                    <div class="img-card">
+                        <img src="steve-long-i6P1H0By5Kk-unsplash.jpg">
+                    </div>
+                </div>
+                <div class="text">
+                    <span class="rating">⭐⭐⭐⭐⭐</span>
+                    <h2>Desert Safari Expedition</h2>
+                    <p class="cost">₹134,800 / Per Person</p>
+                    <div class="card-box">
+                        <p class="time">🕓 3 Days</p>
+                        <p class="location">✈ Jaisalmer, Rajasthan, India</p>
+                    </div>
+                </div>
+            </div></a>
+    
+            <!-- Card 5: Jungle Adventure Expedition -->
+            <a href="jungle.html"><div class="card">
+                <div class="zoom-img">
+                    <div class="img-card">
+                        <img src="pexels-kamaji-ogino-5064653.jpg">
+                    </div>
+                </div>
+                <div class="text">
+                    <span class="rating">⭐⭐⭐⭐⭐</span>
+                    <h2>Jungle Adventure Expedition</h2>
+                    <p class="cost">₹142,600 / Per Person</p>
+                    <div class="card-box">
+                        <p class="time">🕓 4 Days</p>
+                        <p class="location">✈ Uttarakhand, India</p>
+                    </div>
+                </div>
+            </div></a>
+    
+            <!-- Card 6: Arctic Wilderness Expedition -->
+            <a href="arctic.html"><div class="card">
+                <div class="zoom-img">
+                    <div class="img-card">
+                        <img src="pexels-shvetsa-4014847.jpg">
+                    </div>
+                </div>
+                <div class="text">
+                    <span class="rating">⭐⭐⭐⭐⭐</span>
+                    <h2>Arctic Wilderness Expedition</h2>
+                    <p class="cost">₹162,900 / Per Person</p>
+                    <div class="card-box">
+                        <p class="time">🕓 7 Days</p>
+                        <p class="location">✈ Ladakh, India</p>
+                    </div>
+                </div>
+            </div> </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="footer">
+        <!-- Footer content -->
+    </div>
+
+    <!-- JavaScript -->
+    <script src="./lang.js"></script>
+</body>
+</html>
